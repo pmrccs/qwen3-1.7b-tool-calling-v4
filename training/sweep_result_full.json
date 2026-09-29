@@ -7,5 +7,5 @@
   "final_eval_loss": 0.61857,
   "best_eval_loss": 0.61841,
   "steps_completed": 300,
-  "_note": "mean_train_loss is the HF Trainer aggregate (stats.training_loss) averaged over all 300 steps. final_step_train_loss is the loss logged at step 300. An earlier version of this file labeled mean_train_loss as 'final_train_loss', which was misleading. See ERRATA.md."
+  "_note": "mean_train_loss is HF Trainer's aggregate training loss averaged over all 300 steps (stats.training_loss). final_step_train_loss is the loss logged at step 300. An earlier version of this file labeled the mean as 'final_train_loss', which was misleading. See ERRATA.md."
 }
