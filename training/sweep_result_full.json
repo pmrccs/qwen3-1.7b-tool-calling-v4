@@ -1,0 +1,9 @@
+{
+  "tag": "full",
+  "learning_rate": 5e-05,
+  "max_steps": 300,
+  "final_train_loss": 1.0547522400816283,
+  "final_eval_loss": null,
+  "best_eval_loss": 0.6184074878692627,
+  "steps_completed": 300
+}
