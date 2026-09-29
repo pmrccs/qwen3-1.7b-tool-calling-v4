@@ -32,6 +32,15 @@ Both benchmarks were run locally. Not submitted to any public leaderboard.
 - `simple_java` and `simple_javascript` scores reflect the fact that these schema formats were not part of the training distribution.
 - Per-query `raw_output` fields are preserved in the NexusRaven result files for inspection.
 
+## Verifying the scores
+
+BFCL v4 scores can be independently verified by running the official `bfcl-eval` scorer against the JSON files in `results/bfcl_v4/`:
+
+```bash
+pip install bfcl-eval
+BFCL_PROJECT_ROOT=. bfcl-eval --model qwen3-1.7b-tool-calling-v4 --test-category <category>
+```
+
 ## License
 
 MIT (evaluation artifacts only). Model weights are licensed cc-by-nc-4.0.
