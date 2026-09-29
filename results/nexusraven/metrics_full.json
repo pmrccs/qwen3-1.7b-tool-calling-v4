@@ -1,0 +1,300 @@
+{
+  "lenient": {
+    "run_mode": "full",
+    "strict": false,
+    "function_retrieval": {
+      "precision": 0.8888888888888888,
+      "recall": 0.8805031446540881,
+      "f1": 0.8846761453396524
+    },
+    "argument_inference": {
+      "precision": 0.8693759071117562,
+      "recall": 0.8757309941520468,
+      "f1": 0.8725418790968682
+    },
+    "overall": {
+      "precision": 0.8754980079681275,
+      "recall": 0.8772455089820359,
+      "f1": 0.8763708873379861
+    },
+    "counts": {
+      "total": 318,
+      "func_tp": 280,
+      "func_fp": 35,
+      "func_fn": 38,
+      "arg_tp": 599,
+      "arg_fp": 90,
+      "arg_fn": 85,
+      "parallel_mismatch": 0,
+      "exact_count_mismatch": 3,
+      "no_call_gold": 0,
+      "no_call_pred": 3,
+      "unparsed_gold": 0,
+      "unparsed_pred": 0,
+      "degenerate_hits": 0
+    },
+    "per_dataset": {
+      "cve_cpe": {
+        "total": 78,
+        "func_tp": 74,
+        "func_fp": 4,
+        "func_fn": 4,
+        "arg_tp": 131,
+        "arg_fp": 39,
+        "arg_fn": 47,
+        "no_call_gold": 0,
+        "no_call_pred": 0,
+        "unparsed_pred": 0,
+        "degenerate_hits": 0,
+        "function_retrieval": {
+          "precision": 0.9487179487179487,
+          "recall": 0.9487179487179487,
+          "f1": 0.9487179487179487
+        },
+        "argument_inference": {
+          "precision": 0.7705882352941177,
+          "recall": 0.7359550561797753,
+          "f1": 0.7528735632183908
+        },
+        "overall": {
+          "precision": 0.8266129032258065,
+          "recall": 0.80078125,
+          "f1": 0.8134920634920635
+        }
+      },
+      "emailrep": {
+        "total": 38,
+        "func_tp": 37,
+        "func_fp": 1,
+        "func_fn": 1,
+        "arg_tp": 55,
+        "arg_fp": 2,
+        "arg_fn": 3,
+        "no_call_gold": 0,
+        "no_call_pred": 0,
+        "unparsed_pred": 0,
+        "degenerate_hits": 0,
+        "function_retrieval": {
+          "precision": 0.9736842105263158,
+          "recall": 0.9736842105263158,
+          "f1": 0.9736842105263158
+        },
+        "argument_inference": {
+          "precision": 0.9649122807017544,
+          "recall": 0.9482758620689655,
+          "f1": 0.9565217391304347
+        },
+        "overall": {
+          "precision": 0.968421052631579,
+          "recall": 0.9583333333333334,
+          "f1": 0.9633507853403142
+        }
+      },
+      "virustotal": {
+        "total": 151,
+        "func_tp": 122,
+        "func_fp": 29,
+        "func_fn": 29,
+        "arg_tp": 322,
+        "arg_fp": 22,
+        "arg_fn": 18,
+        "no_call_gold": 0,
+        "no_call_pred": 0,
+        "unparsed_pred": 0,
+        "degenerate_hits": 0,
+        "function_retrieval": {
+          "precision": 0.8079470198675497,
+          "recall": 0.8079470198675497,
+          "f1": 0.8079470198675497
+        },
+        "argument_inference": {
+          "precision": 0.936046511627907,
+          "recall": 0.9470588235294117,
+          "f1": 0.9415204678362572
+        },
+        "overall": {
+          "precision": 0.896969696969697,
+          "recall": 0.9042769857433809,
+          "f1": 0.9006085192697768
+        }
+      },
+      "toolalpaca": {
+        "total": 51,
+        "func_tp": 47,
+        "func_fp": 1,
+        "func_fn": 4,
+        "arg_tp": 91,
+        "arg_fp": 27,
+        "arg_fn": 17,
+        "no_call_gold": 0,
+        "no_call_pred": 3,
+        "unparsed_pred": 0,
+        "degenerate_hits": 0,
+        "function_retrieval": {
+          "precision": 0.9791666666666666,
+          "recall": 0.9215686274509803,
+          "f1": 0.9494949494949494
+        },
+        "argument_inference": {
+          "precision": 0.7711864406779662,
+          "recall": 0.8425925925925926,
+          "f1": 0.8053097345132744
+        },
+        "overall": {
+          "precision": 0.8313253012048193,
+          "recall": 0.8679245283018868,
+          "f1": 0.8492307692307693
+        }
+      }
+    }
+  },
+  "strict": {
+    "run_mode": "full",
+    "strict": true,
+    "function_retrieval": {
+      "precision": 0.8888888888888888,
+      "recall": 0.8805031446540881,
+      "f1": 0.8846761453396524
+    },
+    "argument_inference": {
+      "precision": 0.8287373004354136,
+      "recall": 0.8347953216374269,
+      "f1": 0.8317552804078661
+    },
+    "overall": {
+      "precision": 0.8476095617529881,
+      "recall": 0.8493013972055888,
+      "f1": 0.8484546360917249
+    },
+    "counts": {
+      "total": 318,
+      "func_tp": 280,
+      "func_fp": 35,
+      "func_fn": 38,
+      "arg_tp": 571,
+      "arg_fp": 118,
+      "arg_fn": 113,
+      "parallel_mismatch": 0,
+      "exact_count_mismatch": 3,
+      "no_call_gold": 0,
+      "no_call_pred": 3,
+      "unparsed_gold": 0,
+      "unparsed_pred": 0,
+      "degenerate_hits": 0
+    },
+    "per_dataset": {
+      "cve_cpe": {
+        "total": 78,
+        "func_tp": 74,
+        "func_fp": 4,
+        "func_fn": 4,
+        "arg_tp": 104,
+        "arg_fp": 66,
+        "arg_fn": 74,
+        "no_call_gold": 0,
+        "no_call_pred": 0,
+        "unparsed_pred": 0,
+        "degenerate_hits": 0,
+        "function_retrieval": {
+          "precision": 0.9487179487179487,
+          "recall": 0.9487179487179487,
+          "f1": 0.9487179487179487
+        },
+        "argument_inference": {
+          "precision": 0.611764705882353,
+          "recall": 0.5842696629213483,
+          "f1": 0.5977011494252874
+        },
+        "overall": {
+          "precision": 0.717741935483871,
+          "recall": 0.6953125,
+          "f1": 0.7063492063492064
+        }
+      },
+      "emailrep": {
+        "total": 38,
+        "func_tp": 37,
+        "func_fp": 1,
+        "func_fn": 1,
+        "arg_tp": 55,
+        "arg_fp": 2,
+        "arg_fn": 3,
+        "no_call_gold": 0,
+        "no_call_pred": 0,
+        "unparsed_pred": 0,
+        "degenerate_hits": 0,
+        "function_retrieval": {
+          "precision": 0.9736842105263158,
+          "recall": 0.9736842105263158,
+          "f1": 0.9736842105263158
+        },
+        "argument_inference": {
+          "precision": 0.9649122807017544,
+          "recall": 0.9482758620689655,
+          "f1": 0.9565217391304347
+        },
+        "overall": {
+          "precision": 0.968421052631579,
+          "recall": 0.9583333333333334,
+          "f1": 0.9633507853403142
+        }
+      },
+      "virustotal": {
+        "total": 151,
+        "func_tp": 122,
+        "func_fp": 29,
+        "func_fn": 29,
+        "arg_tp": 322,
+        "arg_fp": 22,
+        "arg_fn": 18,
+        "no_call_gold": 0,
+        "no_call_pred": 0,
+        "unparsed_pred": 0,
+        "degenerate_hits": 0,
+        "function_retrieval": {
+          "precision": 0.8079470198675497,
+          "recall": 0.8079470198675497,
+          "f1": 0.8079470198675497
+        },
+        "argument_inference": {
+          "precision": 0.936046511627907,
+          "recall": 0.9470588235294117,
+          "f1": 0.9415204678362572
+        },
+        "overall": {
+          "precision": 0.896969696969697,
+          "recall": 0.9042769857433809,
+          "f1": 0.9006085192697768
+        }
+      },
+      "toolalpaca": {
+        "total": 51,
+        "func_tp": 47,
+        "func_fp": 1,
+        "func_fn": 4,
+        "arg_tp": 90,
+        "arg_fp": 28,
+        "arg_fn": 18,
+        "no_call_gold": 0,
+        "no_call_pred": 3,
+        "unparsed_pred": 0,
+        "degenerate_hits": 0,
+        "function_retrieval": {
+          "precision": 0.9791666666666666,
+          "recall": 0.9215686274509803,
+          "f1": 0.9494949494949494
+        },
+        "argument_inference": {
+          "precision": 0.7627118644067796,
+          "recall": 0.8333333333333334,
+          "f1": 0.7964601769911505
+        },
+        "overall": {
+          "precision": 0.8253012048192772,
+          "recall": 0.8616352201257862,
+          "f1": 0.8430769230769232
+        }
+      }
+    }
+  }
+}
