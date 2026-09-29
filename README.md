@@ -41,6 +41,9 @@ BFCL v4 scores can be independently verified by running the official `bfcl-eval`
 pip install bfcl-eval
 BFCL_PROJECT_ROOT=. bfcl-eval --model qwen3-1.7b-tool-calling-v4 --test-category <category>
 ```
+## What is not included
+
+Training notebook and evaluation scripts are not published. The JSON and JSONL artifacts above are sufficient to independently re-run the official `bfcl-eval` scorer and reproduce every aggregate number reported here.
 
 ## License
 
