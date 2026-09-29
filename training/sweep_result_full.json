@@ -2,8 +2,10 @@
   "tag": "full",
   "learning_rate": 5e-05,
   "max_steps": 300,
-  "final_train_loss": 1.0547522400816283,
-  "final_eval_loss": null,
-  "best_eval_loss": 0.6184074878692627,
-  "steps_completed": 300
+  "mean_train_loss": 1.0547522400816283,
+  "final_step_train_loss": 0.9785223603248596,
+  "final_eval_loss": 0.61857,
+  "best_eval_loss": 0.61841,
+  "steps_completed": 300,
+  "_note": "mean_train_loss is the HF Trainer aggregate (stats.training_loss) averaged over all 300 steps. final_step_train_loss is the loss logged at step 300. An earlier version of this file labeled mean_train_loss as 'final_train_loss', which was misleading. See ERRATA.md."
 }
