@@ -16,5 +16,10 @@ means, and which matches `all_steps_combined.csv` and the model card — is
 The field has been renamed to `mean_train_loss`, and a new
 `final_step_train_loss` field has been added.
 
+**Scope:** Only `sweep_result_full.json` was affected. The model card,
+`all_steps_combined.csv`, the step log, and `training/README.md` all
+already reported the correct final-step loss (0.97852). No other
+artifact needs correction.
+
 **Impact:** None. No benchmark scores, weights, datasets, or evaluation
 artifacts are affected. This was a labeling issue on one derived scalar.
