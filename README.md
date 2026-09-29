@@ -6,9 +6,9 @@ Both benchmarks were run locally. Not submitted to any public leaderboard.
 
 ## Contents
 
-- `results/bfcl_v4/` — per-category JSON outputs from the official `bfcl-eval` AST scorer
-- `results/nexusraven/` — per-query results and aggregate metrics from a custom harness
-- `training/` — step-level training logs (`loss`, `eval_loss`, `learning_rate`, `grad_norm`) and the final trainer state
+- [`results/bfcl_v4/`](results/bfcl_v4/) — per-category JSON outputs from the official `bfcl-eval` AST scorer
+- [`results/nexusraven/`](results/nexusraven/) — per-query results and aggregate metrics from a custom harness
+- [`training/`](training/) — step-level training logs (`loss`, `eval_loss`, `learning_rate`, `grad_norm`) and the final trainer state
 
 ## Aggregate scores
 
